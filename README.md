@@ -1,4 +1,4 @@
-puppet-couchpotato
-==================
+puppet-sickbeard
+================
 
-Couchpotato puppet module
+Sickbeard puppet module

@@ -1,0 +1,5 @@
+---
+couchpotato::package_deps:
+  - git
+couchpotato::gem_deps:
+  - cheetah

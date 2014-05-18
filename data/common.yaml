@@ -1,0 +1,9 @@
+---
+couchpotato::base_dir: /opt/couchpotato
+couchpotato::url: https://github.com/RuudBurger/CouchPotatoServer.git
+couchpotato::service_manage: true
+couchpotato::user: couchpotato
+couchpotato::group: couchpotato
+
+couchpotato::port: 8083
+couchpotato::host: 0.0.0.0
