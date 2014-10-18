@@ -25,7 +25,6 @@ class couchpotato (
   anchor { 'couchpotato::begin': } ->
   class { '::couchpotato::install_deps': } ->
   class { '::couchpotato::install': } ->
-  class { '::couchpotato::config': } ~>
   class { '::couchpotato::service': } ->
   anchor { 'couchpotato::end': }
   }
